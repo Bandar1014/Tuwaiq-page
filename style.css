@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+   
+    height: 60em;
+    background-image: url(/tuwaiq-bulding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    
+}   
+.navbar a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.a{
+    margin-top: 100px;
+}  
+.list{
+    padding-left: 10px;
+    position: relative;
+    top:32px;
+    left:-32px;
+    color: aliceblue;
+    
+}  
+.text{
+    font-size: 100px;
+    color: aliceblue;
+    position: relative;
+    top: 128px;
+    right: 600px;
+    flex-wrap: wrap;
+    width: 30%;
+    
+}
+.button{
+    border: none;
+    background: rgb(64, 162, 165);
+    padding: 12px 30px;
+    border-radius: 30px;
+    position: relative;
+    top: 64px;
+    right: 600px;
+    width: 25%;
+    height: 64px;
+    font-size: 50px;
+    color: aliceblue;
+    font: bold;
+}
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.section{
+    background-color: rgba(149, 159, 168, 0.445);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+
+}
+.card{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.card h1{
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    color: rgb(110, 46, 129);
+
+}
+
+.servises{
+    display: flex;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 40px;
+    transition: all .3s ease;
+}
+.content h3{
+    font-size: 20px;
+}
+.content h4{
+    font-size: 20px;
+    position: relative;
+    top: 32px;
+    right: -37px;
+}
+.content h6{
+    font-size: 13px;
+ 
+}
+.info{
+    position: relative;
+    right: -180px;
+    top: 100px;
+    padding: 3px;
+}
+.date{
+    position: relative;
+    top: 40px;
+}
+.button1{
+    border: none;
+    background: rgb(110, 46, 129);
+    padding: 12px 30px;
+    border-radius: 30px;
+    position: relative;
+    top: 50px;
+    right: 60px;
+    /* width: %;  */
+    height: 32px;
+    font-size: 20px;
+    color: aliceblue;
+    font: bold;
+    
+    
+}
+.button3 {
+    text-decoration: none;
+    border: 1px solid rgb(110, 46, 129);
+    border-radius: 40px;
+    width: auto;
+    height: 100px;
+    font-size: 32px;
+    padding: 8px 8px 8px 8px;
+    position: relative;
+    top: 20px;
+}
