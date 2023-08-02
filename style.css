@@ -7,7 +7,7 @@ body{
 .container{
    
     height: 60em;
-    background-image: url(/tuwaiq-bulding.jpg);
+    background-image: url(./tuwaiq-bulding.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
